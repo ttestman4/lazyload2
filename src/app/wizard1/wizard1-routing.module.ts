@@ -14,6 +14,7 @@ const routes: Routes = [
 ];
 
 @NgModule({
+  declarations: [Wiz1hostComponent],
   imports: [
     RouterModule.forChild(routes)
   ],
