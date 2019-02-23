@@ -10,3 +10,5 @@
 # npm run ng -- g component wizard1/wiz1comp1 -m wizard1/wizard1.module
 # npm run ng -- g component wizard1/wiz1comp2 -m wizard1/wizard1.module
 # npm run ng -- g component wizard1/wiz1host -m wizard1/wizard1.module
+
+# npm run ng -- g component SampleDialog1 -m app.module
