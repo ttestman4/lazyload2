@@ -1,10 +1,8 @@
-import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-
+import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { HomeModule } from './home/home.module';
-import { Wizard1Module } from './wizard1/wizard1.module';
+
 
 @NgModule({
   declarations: [
@@ -13,8 +11,6 @@ import { Wizard1Module } from './wizard1/wizard1.module';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HomeModule,
-    Wizard1Module
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -1,7 +1,6 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { DashboardComponent, HomeModule } from './home/home.module';
-import {Wizard1Module } from './wizard1/wizard1.module';
 const routes: Routes = [
   {
     path: 'home',
@@ -21,7 +20,6 @@ const routes: Routes = [
 @NgModule({
   imports: [
     HomeModule,
-    Wizard1Module,
     RouterModule.forRoot(routes, { enableTracing: true })
   ],
   exports: [RouterModule]

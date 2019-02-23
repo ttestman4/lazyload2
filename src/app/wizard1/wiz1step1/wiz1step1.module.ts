@@ -1,12 +1,13 @@
 import { CommonModule } from '@angular/common';
 import { NgModule } from '@angular/core';
-import { Wizard1RoutingModule } from './wizard1-routing.module';
+import { Wiz1step1RoutingModule } from './wiz1step1-routing.module';
+
 
 @NgModule({
   declarations: [],
   imports: [
     CommonModule,
-    Wizard1RoutingModule,
-  ],
+    Wiz1step1RoutingModule
+  ]
 })
-export class Wizard1Module { }
+export class Wiz1step1Module { }
