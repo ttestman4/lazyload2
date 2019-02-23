@@ -9,7 +9,7 @@ const routes: Routes = [
     children: [
       {
         path: 'step1',
-        loadChildren: './wiz1step1/wiz1step1.module#Wiz1step1Module'
+        loadChildren: './wiz1step1/wiz1step1.module#Wiz1step1Module',
       },
       {
         path: '',
