@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { Wiz1hostComponent } from './wiz1host/wiz1host.component';
+export { Wiz1hostComponent };
 const routes: Routes = [
   {
     path: 'wiz1host',
@@ -26,6 +27,7 @@ const routes: Routes = [
 
 @NgModule({
   declarations: [Wiz1hostComponent],
+  entryComponents: [Wiz1hostComponent],
   imports: [
     RouterModule.forChild(routes)
   ],
