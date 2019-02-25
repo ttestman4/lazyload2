@@ -24,7 +24,8 @@ const routes: Routes = [
     path: '',
     pathMatch: 'full',
     // redirectTo: '/wiz1/wiz1host/step1/wiz1step1host(mainoutlet:2wiz1/wiz1host/step1/wiz1step1host)'
-    redirectTo: 'wiz1'
+    redirectTo: '/wiz1/wiz1host/(step1/wiz1step1host//wiz1outlet:2step1/wiz1step1host)'
+    // redirectTo: 'wiz1'
   }
 ];
 

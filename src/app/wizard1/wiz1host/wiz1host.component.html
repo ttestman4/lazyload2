@@ -7,3 +7,8 @@
   <div>Wiz1 Host Router Named</div>
   <router-outlet name="wiz1outlet"></router-outlet>
 </div>
+<p>
+  <a [routerLink]="[{ outlets: { wiz1outlet: ['2step1'] } }]">
+    Lazy content
+  </a>
+</p>

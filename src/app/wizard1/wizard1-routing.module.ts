@@ -14,6 +14,7 @@ const routes: Routes = [
       {
         path: '2step1',
         loadChildren: './wiz1step1/wiz1step1.module#Wiz1step1Module',
+        outlet: 'wiz1outlet',
       },
       {
         path: '',
