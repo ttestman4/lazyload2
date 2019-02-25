@@ -6,5 +6,9 @@
 </div>
 <button mat-flat-button color="primary" (click)="openDialog()">Open SampleDialog</button>
 <button mat-flat-button color="primary" (click)="openWizard1()">Open Wizard</button>
-<div>App Router</div>
+<div>App Router Default</div>
 <router-outlet></router-outlet>
+<div style="border-color:blue;border-style: solid;">
+  <div>App Router Named</div>
+  <router-outlet name="mainoutlet"></router-outlet>
+</div>

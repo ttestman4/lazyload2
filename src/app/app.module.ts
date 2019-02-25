@@ -5,7 +5,6 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { SampleDialog1Component } from './sample-dialog1/sample-dialog1.component';
-import { Wizard1Module } from './wizard1/wizard1.module';
 
 @NgModule({
   declarations: [
@@ -18,7 +17,6 @@ import { Wizard1Module } from './wizard1/wizard1.module';
     BrowserAnimationsModule,
     MatButtonModule,
     MatDialogModule,
-    Wizard1Module,
   ],
   providers: [],
   bootstrap: [AppComponent],

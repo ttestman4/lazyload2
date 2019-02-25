@@ -7,9 +7,13 @@ const routes: Routes = [
     component: Wiz1step1hostComponent,
   },
   {
+    path: '2wiz1step1host',
+    component: Wiz1step1hostComponent,
+  },
+  {
     path: '',
     pathMatch: 'full',
-    redirectTo: 'wiz1step1host',
+    redirectTo: 'wiz1step1host'
   }
 ];
 

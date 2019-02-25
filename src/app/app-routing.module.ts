@@ -11,8 +11,19 @@ const routes: Routes = [
     loadChildren: './wizard1/wizard1.module#Wizard1Module',
   },
   {
+    path: '2home',
+    component: DashboardComponent,
+    outlet: 'mainoutlet'
+  },
+  {
+    path: '2wiz1',
+    loadChildren: './wizard1/wizard1.module#Wizard1Module',
+    outlet: 'mainoutlet'
+  },
+  {
     path: '',
     pathMatch: 'full',
+    // redirectTo: '/wiz1/wiz1host/step1/wiz1step1host(mainoutlet:2wiz1/wiz1host/step1/wiz1step1host)'
     redirectTo: 'wiz1'
   }
 ];

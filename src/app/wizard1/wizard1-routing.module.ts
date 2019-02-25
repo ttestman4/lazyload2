@@ -12,16 +12,31 @@ const routes: Routes = [
         loadChildren: './wiz1step1/wiz1step1.module#Wiz1step1Module',
       },
       {
+        path: '2step1',
+        loadChildren: './wiz1step1/wiz1step1.module#Wiz1step1Module',
+      },
+      {
         path: '',
-        pathMatch: 'full',
+        pathMatch:'full',
         redirectTo: 'step1',
+      }
+    ]
+  },
+  {
+    path: '2wiz1host',
+    component: Wiz1hostComponent,
+    children: [
+      {
+        path: '2step1',
+        loadChildren: './wiz1step1/wiz1step1.module#Wiz1step1Module',
+        outlet: 'wiz1outlet',
       }
     ]
   },
   {
     path: '',
     pathMatch: 'full',
-    redirectTo: 'wiz1host',
+    redirectTo: 'wiz1host'
   }
 ];
 
